@@ -1,3 +1,6 @@
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-philosophy
+[submodule "docs/library"]
+	path = docs/library
+	url = https://github.com/quanttide/quanttide-library-of-philosophy
