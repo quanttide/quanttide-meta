@@ -4,3 +4,6 @@
 [submodule "docs/library"]
 	path = docs/library
 	url = https://github.com/quanttide/quanttide-library-of-philosophy
+[submodule "docs/roadmap"]
+	path = docs/roadmap
+	url = https://github.com/quanttide/quanttide-roadmap-of-philosophy
