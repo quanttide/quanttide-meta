@@ -1,9 +1,15 @@
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-philosophy
-[submodule "docs/library"]
-	path = docs/library
+[submodule "data/library"]
+	path = data/library
 	url = https://github.com/quanttide/quanttide-library-of-philosophy
-[submodule "docs/roadmap"]
-	path = docs/roadmap
+[submodule "data/roadmap"]
+	path = data/roadmap
 	url = https://github.com/quanttide/quanttide-roadmap-of-philosophy
+[submodule "data/journal"]
+	path = data/journal
+	url = https://github.com/quanttide/quanttide-journal-of-philosophy
+[submodule "docs/tutorial"]
+	path = docs/tutorial
+	url = https://github.com/quanttide/quanttide-tutorial-of-philosophy
