@@ -13,3 +13,6 @@
 [submodule "docs/tutorial"]
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-philosophy
+[submodule "apps/qtcloud-meta"]
+	path = apps/qtcloud-meta
+	url = https://github.com/quanttide/qtcloud-meta.git
