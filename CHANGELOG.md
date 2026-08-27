@@ -11,4 +11,4 @@
 ### 新增
 
 - 注册子模块：`docs/bylaw`（量潮元工程章程，quanttide-bylaw-of-philosophy）
-- 新增 `memory/量潮第二大脑章程.md`（源自 quanttide-bylaw-of-asset-management/schema/second-brain.md）
+- 新增 `memory/second-brain.md`（量潮第二大脑章程，源自 quanttide-bylaw-of-asset-management/schema/second-brain.md）

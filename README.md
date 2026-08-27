@@ -3,7 +3,7 @@
 ## 结构
 
 - `memory/`：元记忆类文件
-  - `量潮第二大脑章程` → 量潮第二大脑章程（源自 quanttide-bylaw-of-asset-management/schema/second-brain.md）
+  - `second-brain.md` → 量潮第二大脑章程（源自 quanttide-bylaw-of-asset-management/schema/second-brain.md）
 - `data/`：数据类子模块
   - `library` → [quanttide-library-of-philosophy](https://github.com/quanttide/quanttide-library-of-philosophy)（量潮元工程图书馆）
   - `roadmap` → [quanttide-roadmap-of-philosophy](https://github.com/quanttide/quanttide-roadmap-of-philosophy)（量潮元工程路线图）
