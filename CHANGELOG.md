@@ -8,6 +8,11 @@
 
 ## [Unreleased]
 
+### 变更
+
+- 实验室子模块改名：`examples/default` → `examples/quanttide-meta-lab`（仓 quanttide-laboratory-of-philosophy → quanttide-meta-lab）
+
+
 ### 新增
 
 - 注册子模块：`docs/bylaw`（量潮元工程章程，quanttide-bylaw-of-philosophy）

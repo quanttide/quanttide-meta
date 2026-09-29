@@ -12,7 +12,7 @@
   - `bylaw` → [quanttide-bylaw-of-philosophy](https://github.com/quanttide/quanttide-bylaw-of-philosophy)（量潮元工程章程，含《量潮第二大脑章程》second-brain.md）
   - `specification` → [quanttide-specification-of-philosophy](https://github.com/quanttide/quanttide-specification-of-philosophy)（量潮元工程标准）
 - `examples/`：示例类子模块
-  - `default` → [quanttide-laboratory-of-philosophy](https://github.com/quanttide/quanttide-laboratory-of-philosophy)（量潮元工程实验室）
+  - `default` → [quanttide-meta-lab](https://github.com/quanttide/quanttide-meta-lab)（量潮元工程实验室）
 
 ## 命名规则
 
