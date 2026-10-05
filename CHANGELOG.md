@@ -17,7 +17,7 @@
 
 ### 新增
 
-- `data/report` 新增 retrospective 报告：从本质出发的形式化一致性检查的工作方法复盘（方法七条、五次纠正记录与 2026-10-05 设计偏差反思）；当日同时删除 `data/profile/qtcloud-work-cli/` 档案——分析未解除读者困惑，教训收入本报告
+- `data/report` 新增 retrospective 报告：qtcloud-work CLI 分析线复盘——主线论点（被删的分析与它诊断的平台患同一种病：点可靠、边断裂）、方法有效域（命题 vs 困惑）与三条因果处方，含 2026-10-05 设计偏差反思；同日删除 `data/profile/qtcloud-work-cli/` 档案——分析未解除读者困惑，教训收入本报告
 - 补齐 `data/`：新增归档（archive）、宣传册（brochure）、历史（history）、洞察（insight）、档案（profile）、报告（report）；`data/intention` 由普通目录改为独立子模块（quanttide-intention-of-meta-engineering）
 - 补齐 `docs/`：新增札记（essay）、案例集（gallery）、手册（handbook）
 - `apps/` 新增量潮云（`apps/qtcloud` → qtcloud）与量潮咨询云（`apps/qtconsult` → qtconsult）
