@@ -20,4 +20,5 @@
 - 补齐 `data/`：新增归档（archive）、宣传册（brochure）、历史（history）、洞察（insight）、档案（profile）、报告（report）；`data/intention` 由普通目录改为独立子模块（quanttide-intention-of-meta-engineering）
 - 补齐 `docs/`：新增札记（essay）、案例集（gallery）、手册（handbook）
 - `apps/` 新增量潮云（`apps/qtcloud` → qtcloud）与量潮咨询云（`apps/qtconsult` → qtconsult）
+- `packages/` 新增元工程工具箱（`packages/quanttide-meta-toolkit` → quanttide-meta-toolkit）
 - 注册子模块：`docs/bylaw`（量潮元工程章程，quanttide-bylaw-of-philosophy）

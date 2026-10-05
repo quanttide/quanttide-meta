@@ -58,6 +58,9 @@
 [submodule "apps/qtconsult"]
 	path = apps/qtconsult
 	url = https://github.com/quanttide/qtconsult.git
+[submodule "packages/quanttide-meta-toolkit"]
+	path = packages/quanttide-meta-toolkit
+	url = https://github.com/quanttide/quanttide-meta-toolkit.git
 [submodule "examples/quanttide-meta-lab"]
 	path = examples/quanttide-meta-lab
 	url = https://github.com/quanttide/quanttide-meta-lab.git
