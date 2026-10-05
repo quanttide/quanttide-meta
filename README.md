@@ -23,7 +23,7 @@
   - `report` → [quanttide-report-of-meta-engineering](https://github.com/quanttide/quanttide-report-of-meta-engineering)（元工程报告）
   - `roadmap` → [quanttide-roadmap-of-meta-engineering](https://github.com/quanttide/quanttide-roadmap-of-meta-engineering)（元工程路线图）
 - `docs/`：文档类子模块
-  - `bylaw` → [quanttide-bylaw-of-meta-engineering](https://github.com/quanttide/quanttide-bylaw-of-meta-engineering)（元工程章程，含《量潮第二大脑章程》second-brain.md）
+  - `bylaw` → [quanttide-bylaw-of-meta-engineering](https://github.com/quanttide/quanttide-bylaw-of-meta-engineering)（元工程章程）
   - `essay` → [quanttide-essay-of-meta-engineering](https://github.com/quanttide/quanttide-essay-of-meta-engineering)（元工程札记）
   - `gallery` → [quanttide-gallery-of-meta-engineering](https://github.com/quanttide/quanttide-gallery-of-meta-engineering)（元工程案例集）
   - `handbook` → [quanttide-handbook-of-meta-engineering](https://github.com/quanttide/quanttide-handbook-of-meta-engineering)（元工程手册）
