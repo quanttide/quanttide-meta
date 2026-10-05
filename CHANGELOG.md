@@ -17,8 +17,7 @@
 
 ### 新增
 
-- `data/profile` 新增档案 `qtcloud-work-cli/index.md`：用范畴论做形式化一致性检查——根因（AI 生产点、不生产边）置顶，13 条检查按三条预言分组代入实跑/读码判定，附业务表现影响与档案更新协议；依赖图作为证据附后
-- `data/report` 新增 retrospective 报告：从本质出发的形式化一致性检查的工作方法复盘（四轮返工的纠正记录与方法六条）
+- `data/report` 新增 retrospective 报告：从本质出发的形式化一致性检查的工作方法复盘（方法七条、五次纠正记录与 2026-10-05 设计偏差反思）；当日同时删除 `data/profile/qtcloud-work-cli/` 档案——分析未解除读者困惑，教训收入本报告
 - 补齐 `data/`：新增归档（archive）、宣传册（brochure）、历史（history）、洞察（insight）、档案（profile）、报告（report）；`data/intention` 由普通目录改为独立子模块（quanttide-intention-of-meta-engineering）
 - 补齐 `docs/`：新增札记（essay）、案例集（gallery）、手册（handbook）
 - `apps/` 新增量潮云（`apps/qtcloud` → qtcloud）与量潮咨询云（`apps/qtconsult` → qtconsult）
