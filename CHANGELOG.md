@@ -17,6 +17,7 @@
 
 ### 新增
 
+- 图书馆 `pr4xis.md` 补「替代方案」：按功能拆分的替代品（范畴论 Rust 原语、OWL/RDF 本体推理、知识图谱层）与替代边界——完整组合（范畴论形式化 + 本体组合 + Rust 编译期证明）无直接对等物
 - `data/report` 新增 retrospective 报告：qtcloud-work CLI 分析线复盘——主线论点（被删的分析与它诊断的平台患同一种病：点可靠、边断裂）、方法有效域（命题 vs 困惑）与三条因果处方，含 2026-10-05 设计偏差反思；同日删除 `data/profile/qtcloud-work-cli/` 档案——分析未解除读者困惑，教训收入本报告
 - 补齐 `data/`：新增归档（archive）、宣传册（brochure）、历史（history）、洞察（insight）、档案（profile）、报告（report）；`data/intention` 由普通目录改为独立子模块（quanttide-intention-of-meta-engineering）
 - 补齐 `docs/`：新增札记（essay）、案例集（gallery）、手册（handbook）
