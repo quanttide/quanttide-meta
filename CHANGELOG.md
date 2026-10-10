@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 图书馆现有四篇（pr4xis、形而上学、本体论、范畴论）集中到 `default/`，`README` 收录表同步
+
 - 案例集 `metaphysics/` 全部内容（三层认知架构、范畴与本体九篇）迁入档案仓 `quanttide-meta/` 目录，案例集只剩 README；`master-data.md` 内部指向改指新路径，章程仓《量潮标准范畴》与规格仓标准字段两处引用删除
 
 - `context` 仓的 `journal/` 日志（20 个文件，10-08~10-10）整体迁入 `journal` 仓：同日文件按约定追加，`default/2026-10-08.md` 两侧内容已合并
@@ -28,6 +30,9 @@
 
 
 ### 新增
+
+- 报告仓新增 `quanttide-delib/studio-ontology-comparison.md`：qtcloud-delib studio/provider 本体与档案五类型建模的异同——共识止于「决议＝结果记录、不预设执行」，词表错位（Topic≠AgendaItem）与四件待拍板
+- 图书馆新增 `quanttide-delib/qtcloud-delib-studio.md`：议题五流程与决议字段的本体结构
 
 - 档案仓新增 `quanttide-delib/index.md`《议事与决议》：议事收编沟通与发布、三代表大会议题交换、社区决议判定（通过 + 创始人认证）——需求与意图已录，规格、实现已补；新增 `index.lean`（意图 Lean 形式）、`index.cue`（规格 schema）、`index.py`（实现状态机）示例；`README` 主体目录补 quanttide-delib；后补概念节（议事规则、议程、议题、草案、决议与议事机构），意图与三份示例按 AgendaItem/Draft/Resolution 拆开
 
