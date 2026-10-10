@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 案例集 `metaphysics/` 全部内容（三层认知架构、范畴与本体九篇）迁入档案仓 `quanttide-meta/` 目录，案例集只剩 README；章程仓《量潮标准范畴》、规格仓标准字段与 `master-data.md` 内部的指向同步改指新路径
+
 - `context` 仓的 `journal/` 日志（20 个文件，10-08~10-10）整体迁入 `journal` 仓：同日文件按约定追加，`default/2026-10-08.md` 两侧内容已合并
 
 - 四阶段补默认书写语言：需求汉语（也允许英语）、意图 Lean、规格 Cue（JSON/YAML 备选）、实现 Python（TypeScript/Go/Rust/Dart 备选）——手册、规格、教程三仓同步，规格仓实现例的语言清单对齐为五种
