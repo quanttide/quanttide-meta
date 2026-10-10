@@ -22,6 +22,7 @@
 
 ### 新增
 
+- 档案仓新增 `quanttide-human/recuritment.md`：招聘考核流程（课堂／招聘两种模式，找方式中不变的部分）——需求已录，意图、规格、实现待补充；`README` 主体目录补 quanttide-human
 - 教程仓新增 `intro/layer.md`《四个阶段》；`intro/index.md` 重写为四阶段摘要后删除（学科清单与文章导航一并弃置），`README`、`myst.yml`、`STATUS` 同步
 - 章程仓新增 `index.md`《量潮元工程章程》：四阶段的概念、工作流与验收标准，哲学五大分支与形而上学、本体论、范畴论的主要功能
 - 规格仓新增 `intro/layer.md`：四阶段的定义；`intro/ontology.md` 移至 `ontology/index.md`
