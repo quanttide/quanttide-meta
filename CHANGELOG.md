@@ -33,7 +33,7 @@
 ### 新增
 
 - 报告仓新增 `quanttide-delib/studio-ontology-comparison.md`：qtcloud-delib studio/provider 本体与档案五类型建模的异同——共识止于「决议＝结果记录、不预设执行」，词表错位（Topic≠AgendaItem）与四件待拍板；补记成因——studio 五阶段抽象自内部工作流程、Topic 词源模拟联合国，档案侧参照安理会，两套方法存在细微冲突
-- 路线图新增 `quanttide-delib/studio.md` 升级方案：三层结构（地基/过程/效力）、字段盘点四态、五阶段与两查验收，词表归属待裁
+- 路线图新增 `quanttide-delib/studio.md` 本体重建方案：删除重写不迁移——地基（机构、代表、议题）＋过程层（Draft 五流程四道门）＋效力层（发号、认证、发布）三层五类型，两查验收
 - 图书馆新增 `quanttide-delib/qtcloud-delib-studio.md`：议题五流程与决议字段的本体结构
 
 - 档案仓新增 `quanttide-delib/index.md`《议事与决议》：议事收编沟通与发布、三代表大会议题交换、社区决议判定（通过 + 创始人认证）——需求与意图已录，规格、实现已补；新增 `index.lean`（意图 Lean 形式）、`index.cue`（规格 schema）、`index.py`（实现状态机）示例；`README` 主体目录补 quanttide-delib；后补概念节（议事规则、议程、议题、草案、决议与议事机构），意图与三份示例按 AgendaItem/Draft/Resolution 拆开
