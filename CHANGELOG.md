@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 历史仓 `metaphysics/ontology/1_birth.md` 补记：library（过去的语义记忆）、profile（现在的语义记忆）、report（过去的事件记忆）三处文档构成本体建模的上下文循环
 - 图书馆现有四篇（pr4xis、形而上学、本体论、范畴论）集中到 `default/`，`README` 收录表同步
 
 - 案例集 `metaphysics/` 全部内容（三层认知架构、范畴与本体九篇）迁入档案仓 `quanttide-meta/` 目录，案例集只剩 README；`master-data.md` 内部指向改指新路径，章程仓《量潮标准范畴》与规格仓标准字段两处引用删除
