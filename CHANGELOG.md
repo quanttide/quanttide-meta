@@ -10,7 +10,7 @@
 
 ### 变更
 
-- 案例集 `metaphysics/` 全部内容（三层认知架构、范畴与本体九篇）迁入档案仓 `quanttide-meta/` 目录，案例集只剩 README；章程仓《量潮标准范畴》、规格仓标准字段与 `master-data.md` 内部的指向同步改指新路径
+- 案例集 `metaphysics/` 全部内容（三层认知架构、范畴与本体九篇）迁入档案仓 `quanttide-meta/` 目录，案例集只剩 README；`master-data.md` 内部指向改指新路径，章程仓《量潮标准范畴》与规格仓标准字段两处引用删除
 
 - `context` 仓的 `journal/` 日志（20 个文件，10-08~10-10）整体迁入 `journal` 仓：同日文件按约定追加，`default/2026-10-08.md` 两侧内容已合并
 
