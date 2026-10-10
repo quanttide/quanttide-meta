@@ -13,6 +13,7 @@
 - 方法论升级为四阶段「需求、意图、规格、实现」：手册 `intro/workflow.md` 重命名为 `intro/layer.md`；教程 `metaphysics/intro/` 七篇按新框架重写（哲学阐述与数学表达合并为意图、新增语言无关的规格、代码实现改称实现），`README`、`CONTRIBUTING`、`AGENTS` 同步改名；档案仓 `README`、`CONTRIBUTING` 与三篇档案重写；`meta-journal-to-profile` 技能同步改名
 - 案例集结构迁移：`index.md`、`category/`、`ontology/` 整体移入 `metaphysics/`
 - 案例集与论文按学术规范改写：案例集长文补摘要与章节编号、改正式语体；论文四篇统一摘要、编号章节与结论，中文引号统一「」
+- 手册 `intro/layer.md` 内容按四阶段重写（不再保留旧四步表述）；札记《从哲学到代码》的编译链、五分支映射表与边界条目对齐新框架；洞察 `index.md` 的方法表述同步改称
 - 领域长名正式定为 `meta-engineering`：语境、章程、规格、日志、图书馆、路线图、教程七个仓库的英文名由 `-of-philosophy` 改为 `-of-meta-engineering`
 - README 补「定位：哲学的实现」——哲学是理论，元工程把哲学命题落成可运行的体系；删去与改写后的命名规则
 - 实验室子模块改名：`examples/default` → `examples/quanttide-meta-lab`（仓 quanttide-laboratory-of-philosophy → quanttide-meta-lab）
