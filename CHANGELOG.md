@@ -27,7 +27,7 @@
 
 ### 新增
 
-- 档案仓新增 `quanttide-delib/议事与决议.md`：议事收编沟通与发布、三代表大会议题交换、社区决议判定（通过 + 创始人认证）——需求与意图已录，规格、实现待补充；`README` 主体目录补 quanttide-delib
+- 档案仓新增 `quanttide-delib/index.md`《议事与决议》：议事收编沟通与发布、三代表大会议题交换、社区决议判定（通过 + 创始人认证）——需求与意图已录，规格、实现待补充；`README` 主体目录补 quanttide-delib
 
 - 档案仓新增 `quanttide-course/criterion.md`：按验收标准设置课程（标准在前、任务为覆盖标准而设、结论可由 pass 重算）——需求与意图已录，规格、实现待补充；`README` 主体目录补 quanttide-course
 - 档案仓新增 `quanttide-human/recuritment.md`：招聘考核流程（课堂／招聘两种模式，找方式中不变的部分）——需求已录；意图已补形式表达（参数、Criterion 评价标准、四条不变量，找跨版本恒真的部分），规格、实现待补充；`README` 主体目录补 quanttide-human
