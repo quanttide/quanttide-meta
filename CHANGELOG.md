@@ -10,6 +10,8 @@
 
 ### 变更
 
+- `context` 仓的 `journal/` 日志（20 个文件，10-08~10-10）整体迁入 `journal` 仓：同日文件按约定追加，`default/2026-10-08.md` 两侧内容已合并
+
 - 四阶段补默认书写语言：需求汉语（也允许英语）、意图 Lean、规格 Cue（JSON/YAML 备选）、实现 Python（TypeScript/Go/Rust/Dart 备选）——手册、规格、教程三仓同步，规格仓实现例的语言清单对齐为五种
 
 - 手册 `intro/layer.md` 重命名为 `intro/layer/index.md`
