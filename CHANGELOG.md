@@ -21,7 +21,7 @@
 
 ### 新增
 
-- 教程仓新增 `intro/layer.md`《四个阶段》；`intro/index.md` 按最新主题重写为概念入口（学科清单原样保留），`README` 目录同步
+- 教程仓新增 `intro/layer.md`《四个阶段》；`intro/index.md` 按最新主题重写为四阶段摘要（丢弃学科清单与文章导航），`README` 目录同步
 - 章程仓新增 `index.md`《量潮元工程章程》：四阶段的概念、工作流与验收标准，哲学五大分支与形而上学、本体论、范畴论的主要功能
 - 规格仓新增 `intro/layer.md`：四阶段的定义；`intro/ontology.md` 移至 `ontology/index.md`
 - 图书馆 `pr4xis.md` 补「替代方案」：按功能拆分的替代品（范畴论 Rust 原语、OWL/RDF 本体推理、知识图谱层）与替代边界——完整组合（范畴论形式化 + 本体组合 + Rust 编译期证明）无直接对等物
