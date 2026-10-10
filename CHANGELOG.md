@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 四阶段补默认书写语言：需求汉语（也允许英语）、意图 Lean、规格 Cue（JSON/YAML 备选）、实现 Python（TypeScript/Go/Rust/Dart 备选）——手册、规格、教程三仓同步，规格仓实现例的语言清单对齐为五种
+
 - 手册 `intro/layer.md` 重命名为 `intro/layer/index.md`
 - 教程仓发布 v0.1.2：方法论四阶段升级与 `intro/` 收尾（标签与 GitHub Release 已建）
 - 方法论升级为四阶段「需求、意图、规格、实现」：手册 `intro/workflow.md` 重命名为 `intro/layer.md`；教程 `metaphysics/intro/` 七篇按新框架重写（哲学阐述与数学表达合并为意图、新增语言无关的规格、代码实现改称实现），`README`、`CONTRIBUTING`、`AGENTS` 同步改名；档案仓 `README`、`CONTRIBUTING` 与三篇档案重写；`meta-journal-to-profile` 技能同步改名
