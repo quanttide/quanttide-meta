@@ -22,7 +22,7 @@
 
 ### 新增
 
-- 档案仓新增 `quanttide-coures/course.md`：按验收标准设置课程（标准在前、任务为覆盖标准而设、结论可由 pass 重算）——需求与意图已录，规格、实现待补充；`README` 主体目录补 quanttide-coures
+- 档案仓新增 `quanttide-course/criterion.md`：按验收标准设置课程（标准在前、任务为覆盖标准而设、结论可由 pass 重算）——需求与意图已录，规格、实现待补充；`README` 主体目录补 quanttide-course
 - 档案仓新增 `quanttide-human/recuritment.md`：招聘考核流程（课堂／招聘两种模式，找方式中不变的部分）——需求已录；意图已补形式表达（参数、Criterion 评价标准、四条不变量，找跨版本恒真的部分），规格、实现待补充；`README` 主体目录补 quanttide-human
 - 教程仓新增 `intro/layer.md`《四个阶段》；`intro/index.md` 重写为四阶段摘要后删除（学科清单与文章导航一并弃置），`README`、`myst.yml`、`STATUS` 同步
 - 章程仓新增 `index.md`《量潮元工程章程》：四阶段的概念、工作流与验收标准，哲学五大分支与形而上学、本体论、范畴论的主要功能
