@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 《量潮标准范畴》（第二大脑资产图式）由章程改归案例：章程仓 `quanttide-bylaw-of-meta-engineering` 撤出该文，档案仓 `quanttide-meta/` 那篇移入案例集 `metaphysics/category/index.md`，案例集为唯一正本；新增「工作手册与工作案例的分界」一节
+
 - 历史仓 `metaphysics/ontology/1_birth.md` 补记：library（过去的语义记忆）、profile（现在的语义记忆）、report（过去的事件记忆）三处文档构成本体建模的上下文循环
 - 图书馆现有四篇（pr4xis、形而上学、本体论、范畴论）集中到 `default/`，`README` 收录表同步
 
