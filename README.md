@@ -42,3 +42,7 @@
 
 - 领域长名：`meta-engineering`（元工程）
 - 子模块英文名：`quanttide-{类型}-of-meta-engineering`；应用与实验室沿用自身仓库名
+
+## 贡献
+
+本仓只追踪子模块指针，内容都在子仓里。新内容该落哪个子仓、五轴之间的依赖方向、子模块提交与移动规则，见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
