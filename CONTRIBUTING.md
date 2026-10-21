@@ -33,7 +33,7 @@
 
 | | 事件类（行动） | 语义类（认知） | 自我类（身份） |
 |---|---|---|---|
-| **未来** | `roadmap/` 工作蓝图 | `insight/` 工作洞察 | `intention/` 工作意图 |
+| **未来** | `roadmap/` 工作蓝图 | `insight/` 工作洞察 | `intention/` 愿景 |
 | **现在** | `journal/` 工作日志 | `profile/` 工作档案 | `brochure/` 宣传册 |
 | **过去** | `report/` 工作报告 | `library/` 工作参考 | `history/` 工作历史 |
 
