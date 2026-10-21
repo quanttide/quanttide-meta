@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 论文仓 `metaphysics/category/` 收录《范畴与类别》（category 一词在 meta 与 asset 两域分任范畴与类别：词源、体系规定与命名策略的三重暗合）与《第二大脑压力分担模型》（自资产领域札记仓 `quanttide-essay-of-asset-management` 移入，资产中文名按《量潮标准范畴》口径更正）；原《语境多元主义的范畴论范式》改存 `contextual-pluralism.md`，`README` 收录表更新为六篇
+
 - 《量潮标准范畴》（第二大脑资产图式）由章程改归案例：章程仓 `quanttide-bylaw-of-meta-engineering` 撤出该文，档案仓 `quanttide-meta/` 那篇移入案例集 `metaphysics/category/index.md`，案例集为唯一正本；新增「工作手册与工作案例的分界」一节
 
 - 历史仓 `metaphysics/ontology/1_birth.md` 补记：library（过去的语义记忆）、profile（现在的语义记忆）、report（过去的事件记忆）三处文档构成本体建模的上下文循环
