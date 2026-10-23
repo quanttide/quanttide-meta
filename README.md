@@ -34,7 +34,7 @@
   - `qtcloud-meta` → [qtcloud-meta](https://github.com/quanttide/qtcloud-meta)（元工程云）
   - `qtconsult` → [qtconsult](https://github.com/quanttide/qtconsult)（量潮咨询云）
 - `packages/`：工具类子模块
-  - `quanttide-meta-toolkit` → [quanttide-meta-toolkit](https://github.com/quanttide/quanttide-meta-toolkit)（元工程工具箱）
+  - `quanttide-meta-toolkit` → [quanttide-meta-toolkit](https://github.com/quanttide/quanttide-meta-toolkit)（元工程标准库）
 - `examples/`：示例类子模块
   - `quanttide-meta-lab` → [quanttide-meta-lab](https://github.com/quanttide/quanttide-meta-lab)（元工程实验室）
 
