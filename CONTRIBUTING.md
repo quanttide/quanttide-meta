@@ -21,7 +21,7 @@
 |----|--------|------|----------|
 | `data/` | 陈述型记忆 + 入口 + 出口 | 11 | 陈述型九宫格 9 类 + `context` + `archive` |
 | `docs/` | 程序型记忆（人类友好、AI 友好两列） | 6 | `bylaw`、`specification`、`handbook`、`gallery`、`tutorial`、`essay` |
-| `apps/` | 程序型记忆（规则引擎友好·法律行） | 3 | Platform：`qtcloud`、`qtcloud-meta`、`qtconsult` |
+| `apps/` | 程序型记忆（规则引擎友好·法律行） | 2 | Platform：`qtcloud`、`qtconsult` |
 | `packages/` | 程序型记忆（规则引擎友好·宪法行） | 1 | Toolkit：`quanttide-meta-toolkit` |
 | `examples/` | 程序型记忆（规则引擎友好·法理行） | 1 | Example/Laboratory：`quanttide-meta-lab` |
 

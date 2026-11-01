@@ -10,7 +10,7 @@
 
 ### 项目定位
 
-quanttide-meta 是元工程的容器仓：自身只有 `README.md`、`AGENTS.md`、`CONTRIBUTING.md`，全部内容都在 22 个子仓里，本仓只追踪指针。内容该落哪个子仓，判据是《量潮第二大脑资产图式章程》的 20 类资产——完整判路见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+quanttide-meta 是元工程的容器仓：自身只有 `README.md`、`AGENTS.md`、`CONTRIBUTING.md`，全部内容都在 21 个子仓里，本仓只追踪指针。内容该落哪个子仓，判据是《量潮第二大脑资产图式章程》的 20 类资产——完整判路见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ### 草稿箱维护规则
 
