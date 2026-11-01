@@ -42,7 +42,7 @@
 各自的一句话：
 
 - `journal/` 按 `<域>/<YYYY-MM-DD>.md` 记当天发生了什么。分两阶段：**记录阶段**只追加、不提炼；**加工整理阶段**（现在）从碎片里提炼出的东西进 `data/profile/` 等正本仓，提炼完的碎片可直接删，不保留历史现场。正本在档案仓，日志不是
-- `profile/` 当前状态的档案描述：一件事怎么被拆开，四阶段固定顺序（需求 → 意图 → 规格 → 实现），按域分档，含 `ontology/`、`category/`、`intro/` 三类子结构
+- `profile/` 当前状态的档案描述：元认知快照——一副骨架（范畴、层级、关系与约束）加它在各主体上的部署，按域分档，含 `ontology/`、`category/`、`intro/` 三类子结构；四阶段流程已移出本仓（事实源在 quanttide-code）
 - `brochure/` 组织身份的现时呈现，对外口径
 - `roadmap/` 将要履行的计划：下一步做什么、按什么顺序
 - `insight/` 面向未来的认知发现，按哲学分支（`aesthetics`、`epistemology`、`ethics`、`logic`、`metaphysics`）归档
@@ -112,7 +112,7 @@
 
 1. **先子仓、后指针**：改动在子仓提交推送成功之后，才回本仓 `git add <子模块路径>` 更新指针；子仓推不上去时指针不落地——宁可不更新，不留悬空指针。上推顺序是子仓 → `quanttide-meta` → 根仓 `quanttide`，每级核对本地 HEAD 与远端一致。
 2. **移动不留副本**：凡从一处移到另一处，来源侧删除。同一内容任何时刻只有一个真源，两处并存就是两个真源。
-3. **各自的仓规自己写**：`data/journal/CONTRIBUTING.md` 管日志命名与补记；`data/profile/CONTRIBUTING.md` 管档案四阶段；`data/report/CONTRIBUTING.md` 管报告三段。本文件只指路，不复制正文。
+3. **各自的仓规自己写**：`data/journal/CONTRIBUTING.md` 管日志命名与补记；`data/profile/CONTRIBUTING.md` 管元认知快照档案；`data/report/CONTRIBUTING.md` 管报告三段。本文件只指路，不复制正文。
 4. **`context` 是草稿箱，不是归宿**：手机端草稿持续落 `data/context/` 各层，正式仓是唯一正本；攒一批就按第五节的层对应表一次性搬空，源侧删除不留副本。不要因为某层「已迁出过」就以为它不再收草稿。
 5. **版本与发布**：各子仓自带 `CHANGELOG.md` + 语义化版本 + `vX.Y.Z` tag；多包应用按包打 scope（如 `cli/v0.1.0-alpha.1`、`studio/v0.1.0-alpha.1`）。**本仓本身不打 tag**，只追踪指针。
 6. **构建**：内容仓以纯 Markdown 为主，目前只有 `docs/tutorial/` 配了 `myst.yml`。没有构建配置的仓不必补 `_toc.yml`——根仓 `CONTRIBUTING.md` 里那套 Jupyter Book 指令在本仓不适用。
