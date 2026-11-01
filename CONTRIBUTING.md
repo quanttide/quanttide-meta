@@ -67,17 +67,27 @@
 - `data/profile/` 里的《档案与案例：谁需要程序性结构》——档案仓库的格式不必严格遵循系统格式，作为系统的交付产出使用；案例才需要保持更完整的程序性结构
 - `data/report/CONTRIBUTING.md`——要变成规矩进章程或规格，要变成做法进手册
 
-## 五、`context/` 与 `docs/` 的关系
+## 五、`context/` 是手机端草稿入口
 
-最容易混的一对：同一批层名（`essay`、`handbook`、`tutorial`、`history`……）两边都有。原因是 `context/` 是入口，谁都可以在这里先成形；`docs/` 是程序型成稿仓。
+`data/context/` 是手机端的草稿箱：手机端随手写的东西落在对应层，会持续进来。它永远是入口，不转型为正式仓；正式仓才是正本，`context/` 里的都是待搬草稿。各层同理，落哪个层就搬往哪个正式仓：
 
-稿件类产出的工作流（草稿箱 → 审核 → 正式仓）：
+| `context/` 的层 | 搬往 |
+|------|------|
+| `journal/` | `data/journal/`（`<域>/<YYYY-MM-DD>.md` 平铺） |
+| `insight/` | `data/insight/` |
+| `intention/` | `data/intention/` |
+| `library/` | `data/library/` |
+| `profile/` | `data/profile/` |
+| `report/` | `data/report/` |
+| `roadmap/` | `data/roadmap/` |
+| `history/` | `data/history/` |
+| `essay/` | `docs/essay/` |
+| `handbook/` | `docs/handbook/` |
+| `tutorial/` | `docs/tutorial/` |
 
-1. **草稿箱**：稿件写进 `data/context/` 的对应层，并**就地把原稿改成成稿**——文件名与位置不动，放进去的应该是能直接读的成稿，不是素材堆
-2. **审核**：由创始人（iGuo）逐篇过，逐篇说「通过」或指出要改哪里
-3. **移入正式仓**：**全部通过之后**，才移到 `docs/` 的对应仓，草稿箱侧删除、不留副本
+怎么搬：攒一批后**一次性搬空**——按目标仓的命名与目录规矩落位（各仓 CONTRIBUTING 自管），逐字节校验后删源侧，不留副本；正式仓、`context` 仓、本仓指针各提交一次。
 
-不抢跑：整理好 ≠ 通过。移完逐条校对正文里的相对链接。
+稿件类产出（`essay/`、`handbook/`、`tutorial/` 等进 `docs/` 的）在搬之前多一道**审核**：由创始人逐篇说「通过」，未通过不进正式仓；日志等 `data/` 侧的草稿搬空即可，不要求逐篇审核。不抢跑：整理好 ≠ 通过。移完逐条校对正文里的相对链接。
 
 ## 六、依赖方向
 
@@ -103,7 +113,7 @@
 1. **先子仓、后指针**：改动在子仓提交推送成功之后，才回本仓 `git add <子模块路径>` 更新指针；子仓推不上去时指针不落地——宁可不更新，不留悬空指针。上推顺序是子仓 → `quanttide-meta` → 根仓 `quanttide`，每级核对本地 HEAD 与远端一致。
 2. **移动不留副本**：凡从一处移到另一处，来源侧删除。同一内容任何时刻只有一个真源，两处并存就是两个真源。
 3. **各自的仓规自己写**：`data/journal/CONTRIBUTING.md` 管日志命名与补记；`data/profile/CONTRIBUTING.md` 管档案四阶段；`data/report/CONTRIBUTING.md` 管报告三段。本文件只指路，不复制正文。
-4. **日志已迁出**：`data/context/` 自 2026-10-19 起不再收日志，元工程日志统一在 `data/journal/`。
+4. **`context` 是草稿箱，不是归宿**：手机端草稿持续落 `data/context/` 各层，正式仓是唯一正本；攒一批就按第五节的层对应表一次性搬空，源侧删除不留副本。不要因为某层「已迁出过」就以为它不再收草稿。
 5. **版本与发布**：各子仓自带 `CHANGELOG.md` + 语义化版本 + `vX.Y.Z` tag；多包应用按包打 scope（如 `cli/v0.1.0-alpha.1`、`studio/v0.1.0-alpha.1`）。**本仓本身不打 tag**，只追踪指针。
 6. **构建**：内容仓以纯 Markdown 为主，目前只有 `docs/tutorial/` 配了 `myst.yml`。没有构建配置的仓不必补 `_toc.yml`——根仓 `CONTRIBUTING.md` 里那套 Jupyter Book 指令在本仓不适用。
 7. **提交**：`docs:` / `feat:` / `chore:` 前缀加中文说明，只提交本次相关路径，动手前后各核一次 `git status` 与 `git diff`，提交即推。

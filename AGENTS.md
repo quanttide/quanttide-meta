@@ -1,0 +1,40 @@
+# Agent 工作指南
+
+本文档为 Agent（包括 CodeBuddy、Claude Code、Cursor、GitHub Copilot 等）在本仓库中工作提供指南。
+
+## 核心记忆
+
+### 项目定位
+
+quanttide-meta 是元工程的容器仓：自身只有 `README.md`、`AGENTS.md`、`CONTRIBUTING.md`，全部内容都在 22 个子仓里，本仓只追踪指针。内容该落哪个子仓，判据是《量潮第二大脑资产图式章程》的 20 类资产——完整判路见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+### 草稿箱维护规则
+
+`data/context/` 是手机端草稿箱：手机端随手写的东西持续落在它的对应层（`journal/`、`insight/`、`profile/`……），**正式仓才是正本，context 里的都是待搬草稿**。
+
+- 攒一批后一次性搬空：按 [CONTRIBUTING.md](CONTRIBUTING.md) 第五节的层对应表落位到正式仓，逐字节校验，源侧删除不留副本
+- 稿件类（`essay/`、`handbook/`、`tutorial/` 等进 `docs/` 的）搬之前须创始人逐篇「通过」；`data/` 侧搬空即可
+- 不要因为某层「已迁出过」就以为它不再收草稿——每次动手前先看 context 各层有没有新文件
+
+## 子模块操作要点
+
+- 子模块默认处于游离头指针，动手前先 `git -C <子模块> switch main`，并 `git pull --ff-only` 拉到最新
+- 提交顺序：子仓 → 本仓指针；子仓推不上去时指针不落地
+- 本仓的提交信息格式为 `chore: 更新 <子模块路径> 指针——<变更一句话>`
+- 只提交本次相关路径，提交前后各核一次 `git status`
+- 提交即推送，无需另行请示，除非用户明确说「只提交不推」
+
+## 人机协作范式
+
+- 最小干预：仅在用户明确请求时操作
+- 移动不留副本：同一内容任何时刻只有一个真源
+- 维护记录：修改后同步更新 CHANGELOG.md
+- 原子提交：每次提交包含完整独立变更
+
+## 文档格式
+
+文档遵循《量潮科技文档格式章程》：格式克制，标题不超过三级且一级标题全文唯一，代码块标注语言，中文引号使用直角引号「」。
+
+## 网络
+
+git 一律用 SSH：`git@github.com:quanttide/<repo>.git`；子模块推送用 `git push origin HEAD:main`。
