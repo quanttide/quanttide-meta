@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 域内素材迁出：`data/journal` 的 `quanttide-market/` 5 篇日志与 `data/context` 的 `profile/quanttide-market/`《同理心》迁至 quanttide-market 域（营销管理冷启动），源侧不留副本
 - `apps/qtcloud-meta`（量潮元数据 CLI，quanttide/qtcloud-meta）随领域边界重划迁至软件工程领域 quanttide-code；`README`、`CONTRIBUTING` 子模块表、`AGENTS` 子仓计数同步。CLI 同步发布 0.1.0-alpha.2：`category` 命令改名 `paradigm`，「范畴」改「范式」，表改文件优先装载，停机位指到填表文件
 - 六篇形式化正课（集合与逻辑、状态机、细化、并发、组合、范畴论视角）随领域边界重划迁至软件工程教程仓 `formalization/`；教程仓 `metaphysics/intro/index.md` 改为指针页，图书馆仓两处旧链接改指正本
 - 四阶段工作流（需求、意图、规格、实现）随领域边界重划迁至软件工程领域（quanttide-code）：标准仓 `intro/layer.md` 定义、手册仓 `intro/layer/index.md`、教程仓 `intro/layer.md`、章程仓第一章全部迁出，原位不留副本，只留指针；教程站目录、章程章数同步
