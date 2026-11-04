@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 移除 `apps/qtconsult`（量潮咨询云，quanttide/qtconsult）子模块；`README` 结构表、`CONTRIBUTING` 五轴表与依赖方向句、`AGENTS` 与 `CONTRIBUTING` 子仓计数（21 → 20）同步
 - 案例集范畴两篇术语规范化：「资产」等具体词改为子范畴、对象、准则等范畴论术语
 - 案例集范畴页分解两篇：`metaphysics/category/index.md` 改为《量潮标准范畴》（给存在分类的一般方法与标准范畴清单），新增 `second-brain.md`《量潮第二大脑范畴》按对象、态射、归档记忆、不变式重写，点明 20 个子范畴与本领域自举
 - 《君主论范式》自 `data/context` 的 `laboratory/` 迁入实验室 `examples/power/docs/君主论.md`（新增示例 `power` 的首份素材），源侧不留副本
