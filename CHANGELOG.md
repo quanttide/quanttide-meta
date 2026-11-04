@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 《君主论范式》自 `data/context` 的 `laboratory/` 迁入实验室 `examples/power/docs/君主论.md`（新增示例 `power` 的首份素材），源侧不留副本
 - 案例集《量潮标准范畴》改题《量潮第二大脑范畴》（`metaphysics/category/index.md`），案例集 README 收录名与论文仓四处引用同步
 - 域内素材迁出：`data/journal` 的 `quanttide-market/` 5 篇日志与 `data/context` 的 `profile/quanttide-market/`《同理心》迁至 quanttide-market 域（营销管理冷启动），源侧不留副本
 - `apps/qtcloud-meta`（量潮元数据 CLI，quanttide/qtcloud-meta）随领域边界重划迁至软件工程领域 quanttide-code；`README`、`CONTRIBUTING` 子模块表、`AGENTS` 子仓计数同步。CLI 同步发布 0.1.0-alpha.2：`category` 命令改名 `paradigm`，「范畴」改「范式」，表改文件优先装载，停机位指到填表文件
