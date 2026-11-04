@@ -31,6 +31,7 @@
   - `tutorial` → [quanttide-tutorial-of-meta-engineering](https://github.com/quanttide/quanttide-tutorial-of-meta-engineering)（元工程教程）
 - `apps/`：应用类子模块
   - `qtcloud` → [qtcloud](https://github.com/quanttide/qtcloud)（量潮云）
+  - `qtcloud-meta` → [qtcloud-meta](https://github.com/quanttide/qtcloud-meta)（元工程云）
 - `packages/`：工具类子模块
   - `quanttide-meta-toolkit` → [quanttide-meta-toolkit](https://github.com/quanttide/quanttide-meta-toolkit)（元工程标准库）
 - `examples/`：示例类子模块

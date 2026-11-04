@@ -1,6 +1,6 @@
 # 贡献指南
 
-本仓是容器仓：自身只有 `README.md` 与这份指南，全部内容都在 20 个子仓里，本仓只追踪指针。所以贡献的第一步不是写文件，而是判断内容该落哪个子仓。
+本仓是容器仓：自身只有 `README.md` 与这份指南，全部内容都在 21 个子仓里，本仓只追踪指针。所以贡献的第一步不是写文件，而是判断内容该落哪个子仓。
 
 依据是《量潮第二大脑资产图式章程》：20 类标准资产 = 陈述型记忆九宫格 9 类 + 程序型记忆九宫格 9 类 + Context、Archive 两个不占格资产。本仓的五个轴就是这 20 类资产的落地。
 
@@ -21,7 +21,7 @@
 |----|--------|------|----------|
 | `data/` | 陈述型记忆 + 入口 + 出口 | 11 | 陈述型九宫格 9 类 + `context` + `archive` |
 | `docs/` | 程序型记忆（人类友好、AI 友好两列） | 6 | `bylaw`、`specification`、`handbook`、`gallery`、`tutorial`、`essay` |
-| `apps/` | 程序型记忆（规则引擎友好·法律行） | 1 | Platform：`qtcloud` |
+| `apps/` | 程序型记忆（规则引擎友好·法律行） | 2 | Platform：`qtcloud`、`qtcloud-meta` |
 | `packages/` | 程序型记忆（规则引擎友好·宪法行） | 1 | Toolkit：`quanttide-meta-toolkit` |
 | `examples/` | 程序型记忆（规则引擎友好·法理行） | 1 | Example/Laboratory：`quanttide-meta-lab` |
 

@@ -52,6 +52,9 @@
 [submodule "apps/qtcloud"]
 	path = apps/qtcloud
 	url = https://github.com/quanttide/qtcloud.git
+[submodule "apps/qtcloud-meta"]
+	path = apps/qtcloud-meta
+	url = https://github.com/quanttide/qtcloud-meta.git
 [submodule "packages/quanttide-meta-toolkit"]
 	path = packages/quanttide-meta-toolkit
 	url = https://github.com/quanttide/quanttide-meta-toolkit.git
