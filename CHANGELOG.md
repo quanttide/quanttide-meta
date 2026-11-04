@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 案例集范畴页分解两篇：`metaphysics/category/index.md` 改为《量潮标准范畴》（给存在分类的一般方法与标准范畴清单），新增 `second-brain.md`《量潮第二大脑范畴》按对象、态射、归档记忆、不变式重写，点明 20 个子范畴与本领域自举
 - 《君主论范式》自 `data/context` 的 `laboratory/` 迁入实验室 `examples/power/docs/君主论.md`（新增示例 `power` 的首份素材），源侧不留副本
 - 案例集《量潮标准范畴》改题《量潮第二大脑范畴》（`metaphysics/category/index.md`），案例集 README 收录名与论文仓四处引用同步
 - 域内素材迁出：`data/journal` 的 `quanttide-market/` 5 篇日志与 `data/context` 的 `profile/quanttide-market/`《同理心》迁至 quanttide-market 域（营销管理冷启动），源侧不留副本
