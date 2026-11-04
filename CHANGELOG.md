@@ -47,6 +47,7 @@
 
 ### 新增
 
+- 实验室 `examples/power` 新增实验方案 README：权力文本的范畴化与范式抽取——素材（《君主论》映射稿）已迁入，范式未抽、复现与迁移未跑；助手按现有素材起草，目的与假设待创始人确认
 - 技能 `meta-profile-coldstart`（`.agents/skills/`）：领域元认知档案冷启动全流程——一句话目标、岔路问答、指认归格、冷启动稿件、注入领域仓、删源；以客户支持与智能体两域为范例，与 `meta-journal-to-profile` 成对
 - 论文仓新增《范畴先于设计：一个领域第二大脑的冷启动》（`metaphysics/category/`）：客服域冷启动实况——岔路问答挤出隐性认知、指认归格让五个设计决策消失、落位说明即各仓 AGENTS、收录后删源；范畴不补领域判断
 - 报告仓新增 `quanttide-delib/studio-ontology-comparison.md`：qtcloud-delib studio/provider 本体与档案五类型建模的异同——共识止于「决议＝结果记录、不预设执行」，词表错位（Topic≠AgendaItem）与四件待拍板；补记成因——studio 五阶段抽象自内部工作流程、Topic 词源模拟联合国，档案侧参照安理会，两套方法存在细微冲突
